@@ -6,10 +6,9 @@ g_config = None
 
 def load_config():
 	global g_config
-	g_config = importloader.loads(['userapiconfig', 'apiconfig'])
+	g_config = importloader.loads(['userapiconfig', 'config'])
 
 def get_config():
 	return g_config
 
 load_config()
-

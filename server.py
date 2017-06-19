@@ -28,7 +28,7 @@ class MainThread(threading.Thread):
     """MainThread."""
 
     def __init__(self, obj):
-        super(MainThread, self).__init__()
+        super().__init__()
         self.daemon = True
         self.obj = obj
 
